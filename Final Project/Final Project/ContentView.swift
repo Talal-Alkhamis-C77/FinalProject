@@ -32,7 +32,7 @@ struct ContentView: View {
                                 .background(.white)
                                 .cornerRadius(.infinity)
                             NavigationLink {
-                                _nd_View()
+                                ElectroincsView()
                             } label: {
                                 Image("Battery")
                                     .resizable()
@@ -50,12 +50,17 @@ struct ContentView: View {
                                 .padding()
                                 .background(.white)
                                 .cornerRadius(.infinity)
-                            
-                        Image("Brakes")
-                            .resizable()
-                            .scaledToFit()
-                            .clipShape(Circle())
-                            .padding()
+                            NavigationLink {
+                                BrakesView()
+                            } label: {
+                                Image("Brakes")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .clipShape(Circle())
+                                    .padding()
+                            }
+
+                        
                         }
                         
                     }
@@ -66,13 +71,18 @@ struct ContentView: View {
                                 .padding()
                                 .background(.white)
                                 .cornerRadius(.infinity)
-                            
-                        Image("gear box")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 170, height: 170)
-                            .clipShape(Circle())
-                            .padding()
+                            NavigationLink {
+                                GearView()
+                            } label: {
+                                Image("gear box")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 170, height: 170)
+                                    .clipShape(Circle())
+                                    .padding()
+                            }
+
+                        
                         }
                             VStack{
                                 Text("Suspension")
@@ -80,17 +90,26 @@ struct ContentView: View {
                                     .padding()
                                     .background(.white)
                                     .cornerRadius(.infinity)
-                                
-                            Image("sus")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 170, height: 170)
-                                .clipShape(Circle())
-                                .padding()
+                                NavigationLink {
+                                    SusView()
+                                } label: {
+                                    Image("sus")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 170, height: 170)
+                                        .clipShape(Circle())
+                                        .padding()
+                                }
+
+                            
                         }
                 }
                     
-                }
+                }.navigationTitle("الصفحة الرئيسية")
+                    
+                    
+                    
+                
                 
                 
                 
