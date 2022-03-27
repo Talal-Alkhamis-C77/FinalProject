@@ -9,7 +9,22 @@ import SwiftUI
 
 struct Garage1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            Text("الخطيب لصيانة الكهرباء")
+                .font(Font.system(size: 35))
+                .fontWeight(.heavy)
+                .multilineTextAlignment(.trailing)
+
+            Image("1")
+                .resizable()
+                .padding()
+                .scaledToFit()
+                .frame(width: 400, height:400)
+            
+            
+            
+        }
     }
 }
 

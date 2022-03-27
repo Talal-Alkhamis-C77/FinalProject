@@ -12,9 +12,14 @@ struct ElectroincsView: View {
         
         NavigationView{
             List{
-                HStack{
-                    Spacer()
-                    Text(" الخطيب لصيانة الكهرباء")
+                NavigationLink {
+                    Garage1()
+                } label: {
+                    HStack{
+                        Spacer()
+                        Text(" الخطيب لصيانة الكهرباء")
+                }
+
                 }
                 HStack{
                     Spacer()
