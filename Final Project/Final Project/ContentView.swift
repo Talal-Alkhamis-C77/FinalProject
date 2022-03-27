@@ -11,18 +11,9 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            ZStack{
-                LinearGradient(gradient: Gradient(colors: [.blue, .cyan.opacity(0.3)]),
-                               startPoint: .top,
-                               endPoint: .bottom)
-                    .edgesIgnoringSafeArea(.all)
-                
+            
                 VStack{
-                    Text("كراجات شويخ بين ايديك")
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                        .multilineTextAlignment(.trailing)
-                        .padding(.all, 30)
+                    
                     HStack{
                         VStack{
                             
@@ -104,13 +95,14 @@ struct ContentView: View {
                         }
                 }
                     
-                }.navigationTitle("الصفحة الرئيسية")
-   
+                }
+                .navigationTitle("الصفحة الرئيسية")
+                
             }
         }
         
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

@@ -12,6 +12,7 @@ struct Final_ProjectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.layoutDirection, .rightToLeft)
         }
     }
 }
