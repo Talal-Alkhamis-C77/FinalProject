@@ -11,6 +11,7 @@
 		0F22BFD927EF19370003A664 /* BrakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFD827EF19370003A664 /* BrakesView.swift */; };
 		0F22BFDB27EF19500003A664 /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFDA27EF19500003A664 /* GearView.swift */; };
 		0F22BFDD27EF195F0003A664 /* SusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFDC27EF195F0003A664 /* SusView.swift */; };
+		0F22BFE527EF76BA0003A664 /* Garage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFE427EF76BA0003A664 /* Garage1.swift */; };
 		0FB9CCBD27DCD2B500CF49F9 /* Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9CCBC27DCD2B500CF49F9 /* Final_ProjectApp.swift */; };
 		0FB9CCBF27DCD2B500CF49F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9CCBE27DCD2B500CF49F9 /* ContentView.swift */; };
 		0FB9CCC127DCD2B600CF49F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB9CCC027DCD2B600CF49F9 /* Assets.xcassets */; };
@@ -22,7 +23,8 @@
 		0F22BFD827EF19370003A664 /* BrakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrakesView.swift; sourceTree = "<group>"; };
 		0F22BFDA27EF19500003A664 /* GearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearView.swift; sourceTree = "<group>"; };
 		0F22BFDC27EF195F0003A664 /* SusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SusView.swift; sourceTree = "<group>"; };
-		0FB9CCB927DCD2B500CF49F9 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F22BFE427EF76BA0003A664 /* Garage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage1.swift; sourceTree = "<group>"; };
+		0FB9CCB927DCD2B500CF49F9 /* كراجاتي.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "كراجاتي.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB9CCBC27DCD2B500CF49F9 /* Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectApp.swift; sourceTree = "<group>"; };
 		0FB9CCBE27DCD2B500CF49F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FB9CCC027DCD2B600CF49F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				0F22BFD627EF19070003A664 /* ElectroincsView.swift */,
+				0F22BFE427EF76BA0003A664 /* Garage1.swift */,
 			);
 			path = Electronics;
 			sourceTree = "<group>";
@@ -83,7 +86,7 @@
 		0FB9CCBA27DCD2B500CF49F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FB9CCB927DCD2B500CF49F9 /* Final Project.app */,
+				0FB9CCB927DCD2B500CF49F9 /* كراجاتي.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,7 +131,7 @@
 			);
 			name = "Final Project";
 			productName = "Final Project";
-			productReference = 0FB9CCB927DCD2B500CF49F9 /* Final Project.app */;
+			productReference = 0FB9CCB927DCD2B500CF49F9 /* كراجاتي.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB9CCBF27DCD2B500CF49F9 /* ContentView.swift in Sources */,
+				0F22BFE527EF76BA0003A664 /* Garage1.swift in Sources */,
 				0FB9CCBD27DCD2B500CF49F9 /* Final_ProjectApp.swift in Sources */,
 				0F22BFD927EF19370003A664 /* BrakesView.swift in Sources */,
 				0F22BFDB27EF19500003A664 /* GearView.swift in Sources */,
@@ -331,7 +335,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.talal.Final-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "كراجاتي";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,7 +364,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.talal.Final-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "كراجاتي";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

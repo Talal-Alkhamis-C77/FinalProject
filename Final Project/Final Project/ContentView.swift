@@ -26,7 +26,7 @@ struct ContentView: View {
                     HStack{
                         VStack{
                             
-                            Text("Electronics")
+                            Text("كهربائيات")
                                 .font(.title2)
                                 .padding()
                                 .background(.white)
@@ -45,7 +45,7 @@ struct ContentView: View {
                             
                         }
                         VStack{
-                            Text("Brakes")
+                            Text("سفايف وبريك")
                                 .font(.title2)
                                 .padding()
                                 .background(.white)
@@ -60,13 +60,12 @@ struct ContentView: View {
                                     .padding()
                             }
 
-                        
                         }
                         
                     }
                     HStack{
                         VStack{
-                            Text("Gear Box")
+                            Text("القير")
                                 .font(.title2)
                                 .padding()
                                 .background(.white)
@@ -85,7 +84,7 @@ struct ContentView: View {
                         
                         }
                             VStack{
-                                Text("Suspension")
+                                Text("المعاونات")
                                     .font(.title2)
                                     .padding()
                                     .background(.white)
@@ -106,35 +105,7 @@ struct ContentView: View {
                 }
                     
                 }.navigationTitle("الصفحة الرئيسية")
-                    
-                    
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+   
             }
         }
         
