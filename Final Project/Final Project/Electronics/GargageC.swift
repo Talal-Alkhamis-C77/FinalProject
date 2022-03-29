@@ -72,5 +72,6 @@ struct GargageC: View {
 struct GargageC_Previews: PreviewProvider {
     static var previews: some View {
         GargageC()
+            
     }
 }

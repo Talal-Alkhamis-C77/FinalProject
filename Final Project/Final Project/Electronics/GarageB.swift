@@ -11,7 +11,7 @@ struct GarageB: View {
     var body: some View {
         VStack{
             
-            Text("الخطيب لصيانة الكهرباء")
+            Text("كراج صفائي")
                 .foregroundColor(Color("Primary"))
                 .font(Font.system(size: 35))
                 .fontWeight(.heavy)
@@ -72,5 +72,6 @@ struct GarageB: View {
 struct GarageB_Previews: PreviewProvider {
     static var previews: some View {
         GarageB()
+            
     }
 }

@@ -22,6 +22,7 @@ struct GarageD: View {
                 .scaledToFit()
                 .frame(width: 400, height: 300)
                 
+                
   
             Text("ورشة الخطيب متخصصة في صيانة وإصلاح الأعطال الكهربائية الموجودة في السيارة وكذالك المكيفات")
                 .font(.body)
@@ -73,5 +74,6 @@ struct GarageD: View {
 struct GarageD_Previews: PreviewProvider {
     static var previews: some View {
         GarageD()
+            
     }
 }

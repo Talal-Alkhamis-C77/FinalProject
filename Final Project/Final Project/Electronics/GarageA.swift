@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Garage1: View {
+struct GarageA: View {
     var body: some View {
         
         VStack{
@@ -18,12 +18,7 @@ struct Garage1: View {
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.trailing)
 
-            Image("1")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 400, height: 300)
-                
-  
+    
             Text("ورشة الخطيب متخصصة في صيانة وإصلاح الأعطال الكهربائية الموجودة في السيارة وكذالك المكيفات")
                 .font(.body)
                 .fontWeight(.bold)
@@ -70,8 +65,9 @@ struct Garage1: View {
     }
 }
 
-struct Garage1_Previews: PreviewProvider {
+struct GarageA_Previews: PreviewProvider {
     static var previews: some View {
-        Garage1()
+        GarageA()
+           
     }
 }

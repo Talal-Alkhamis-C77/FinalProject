@@ -13,11 +13,11 @@ struct BrakesView: View {
         ScrollView{
             
             
-            // Garage A
+            // Garage E
             
             
             NavigationLink {
-                Garage1()
+                GarageE()
             } label: {
                 HStack{
                     
@@ -34,11 +34,11 @@ struct BrakesView: View {
             }
             
             
-            // Garage B
+            // Garage F
             
             
             NavigationLink {
-                GarageB()
+                GarageF()
             } label: {
                 HStack{
                     Text("كراج صفائي")
@@ -53,49 +53,6 @@ struct BrakesView: View {
                     .cornerRadius(10)
                     .padding(5)
                 
-            }
-            
-            
-            // Garage C
-            
-            
-            NavigationLink {
-                GargageC()
-            } label: {
-                HStack{
-     
-                    Text(" الغانم العصرية")
-                        .foregroundColor(Color("On primary container"))
-                    
-                    Spacer()
-                    Image(systemName: "chevron.left")
-                        .foregroundColor(Color("On primary container"))
-                }.padding()
-                    .frame(width: 350, height: 65)
-                    .background(Color("Primary Container"))
-                    .cornerRadius(10)
-                    .padding(5)
-            }
-            
-            
-            
-            // Garage D
-            
-            
-            NavigationLink {
-                GarageD()
-            } label: {
-                HStack{
-                    Text("كهربائي كيفان")
-                        .foregroundColor(Color("On primary container"))
-                    Spacer()
-                    Image(systemName: "chevron.left")
-                        .foregroundColor(Color("On primary container"))
-                }.padding()
-                    .frame(width: 350, height: 65)
-                    .background(Color("Primary Container"))
-                    .cornerRadius(10)
-                    .padding(5)
             }
             
         }

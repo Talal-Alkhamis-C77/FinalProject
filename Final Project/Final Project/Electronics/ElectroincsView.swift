@@ -18,7 +18,7 @@ struct ElectroincsView: View {
             
             
             NavigationLink {
-                Garage1()
+                GarageA()
             } label: {
                 HStack{
                     
