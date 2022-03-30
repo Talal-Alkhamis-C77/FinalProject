@@ -9,7 +9,77 @@ import SwiftUI
 
 struct GarageF: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            Text("كراج الروضة")
+                .foregroundColor(Color("Primary"))
+                .font(Font.system(size: 35))
+                .fontWeight(.heavy)
+                .multilineTextAlignment(.trailing)
+            
+            //Pictures
+            
+            ScrollView(.horizontal){
+                HStack{
+            Image("rawda")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 400, height: 300)
+                Image("rawda 2")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 400, height: 300)
+                    Image("rawda 3")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 400, height: 300)
+
+                }
+            }
+  
+            Text("كراج الروضة خدمة سريعة وومتازة ويوجد غرف إنتظار للنساء والرجال")
+                .font(.body)
+                .fontWeight(.bold)
+                .padding()
+                  .foregroundColor(Color("On primary container"))
+                  .background(Color("Primary Container"))
+                  .cornerRadius(15)
+                .multilineTextAlignment(.center)
+                .padding()
+            
+            HStack{
+          Text("للتواصل مع الورشة 📞:")
+                .font(.title3)
+                .fontWeight(.regular)
+                .fontWeight(.semibold)
+                .padding()
+                  .foregroundColor(Color("On primary container"))
+                  .background(Color("Primary Container"))
+                  .cornerRadius(15)
+                  .padding()
+                
+                Text("[66508011](tel:66508011)")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .fontWeight(.semibold)
+                Spacer()
+
+            }
+            
+            Text("موقع الكراج 📍")
+                .font(.title3)
+                .fontWeight(.regular)
+                .fontWeight(.semibold)
+                .padding()
+                  .foregroundColor(Color("On primary container"))
+                  .background(Color("Primary Container"))
+                  .cornerRadius(15)
+                  .onTapGesture {
+                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/UwSHNjqZev7fkiDRA")!)
+                  }
+            
+            
+        }
     }
 }
 

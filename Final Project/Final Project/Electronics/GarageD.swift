@@ -11,20 +11,20 @@ struct GarageD: View {
     var body: some View {
         VStack{
             
-            Text("الخطيب لصيانة الكهرباء")
+            Text("كهربائي جمعية كيفان")
                 .foregroundColor(Color("Primary"))
                 .font(Font.system(size: 35))
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.trailing)
 
-            Image("1")
+            Image("كيفان")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 400, height: 300)
                 
                 
   
-            Text("ورشة الخطيب متخصصة في صيانة وإصلاح الأعطال الكهربائية الموجودة في السيارة وكذالك المكيفات")
+            Text("بنشر وكهرباء جمعية كيفان تصليح جميع اعطال كهرباء السيارات، ويوجد فني كهرباء عام. أسعار منافسة ")
                 .font(.body)
                 .fontWeight(.bold)
                 .padding()
@@ -35,11 +35,6 @@ struct GarageD: View {
                 .padding()
             
             HStack{
-                Spacer()
-                Text("[99876914](tel:99876914)")
-                    .font(.title3)
-                    .fontWeight(.regular)
-                    .fontWeight(.semibold)
           Text("للتواصل مع الورشة 📞:")
                 .font(.title3)
                 .fontWeight(.regular)
@@ -50,6 +45,11 @@ struct GarageD: View {
                   .cornerRadius(15)
                   .padding()
                 
+                Text("[24837516](tel:24837516)")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .fontWeight(.semibold)
+                Spacer()
 
             }
             
@@ -62,7 +62,7 @@ struct GarageD: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .onTapGesture {
-                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/MeNKNtgxNxELAC7YA")!)
+                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/V1zjDmyzsJ9RjvQDA")!)
                   }
             
             

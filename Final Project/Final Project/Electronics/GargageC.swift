@@ -11,7 +11,7 @@ struct GargageC: View {
     var body: some View {
         VStack{
             
-            Text("الخطيب لصيانة الكهرباء")
+            Text("الغانم العصرية")
                 .foregroundColor(Color("Primary"))
                 .font(Font.system(size: 35))
                 .fontWeight(.heavy)
@@ -23,7 +23,7 @@ struct GargageC: View {
                 .frame(width: 400, height: 300)
                 
   
-            Text("ورشة الخطيب متخصصة في صيانة وإصلاح الأعطال الكهربائية الموجودة في السيارة وكذالك المكيفات")
+            Text("ورشة الغانم العصرية: كهرباء - تصفية عامة - فحص كمبيوتر وبرمجة")
                 .font(.body)
                 .fontWeight(.bold)
                 .padding()
@@ -34,11 +34,6 @@ struct GargageC: View {
                 .padding()
             
             HStack{
-                Spacer()
-                Text("[99876914](tel:99876914)")
-                    .font(.title3)
-                    .fontWeight(.regular)
-                    .fontWeight(.semibold)
           Text("للتواصل مع الورشة 📞:")
                 .font(.title3)
                 .fontWeight(.regular)
@@ -48,6 +43,12 @@ struct GargageC: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .padding()
+                
+                Text("[50025167](tel:50025167)")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .fontWeight(.semibold)
+                Spacer()
                 
 
             }
@@ -61,7 +62,7 @@ struct GargageC: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .onTapGesture {
-                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/MeNKNtgxNxELAC7YA")!)
+                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/WX6mG4BDYtsPeaKJ6")!)
                   }
             
             

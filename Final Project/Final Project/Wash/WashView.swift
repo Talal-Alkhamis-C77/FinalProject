@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GearView: View {
+struct WashView: View {
     var body: some View {
         
         
@@ -64,7 +64,7 @@ struct GearView: View {
 
 struct GearView_Previews: PreviewProvider {
     static var previews: some View {
-        GearView()
+        WashView()
             .environment(\.layoutDirection, .rightToLeft)
     }
 }

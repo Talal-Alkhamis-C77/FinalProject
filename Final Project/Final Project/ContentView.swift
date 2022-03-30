@@ -56,13 +56,13 @@ struct ContentView: View {
                     }
                     HStack{
                         VStack{
-                            Text("القير")
+                            Text("الحماية والغسيل")
                                 .font(.title2)
                                 .padding()
                                 .background(.white)
                                 .cornerRadius(.infinity)
                             NavigationLink {
-                                GearView()
+                                WashView()
                             } label: {
                                 Image("gear box")
                                     .resizable()

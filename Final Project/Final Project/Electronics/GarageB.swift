@@ -23,7 +23,7 @@ struct GarageB: View {
                 .frame(width: 400, height: 300)
                 
   
-            Text("ورشة الخطيب متخصصة في صيانة وإصلاح الأعطال الكهربائية الموجودة في السيارة وكذالك المكيفات")
+            Text("ورشة صفائي مختص في السيارات الألمانية مثل (BMW, MERCEDES BENZ)")
                 .font(.body)
                 .fontWeight(.bold)
                 .padding()
@@ -34,11 +34,6 @@ struct GarageB: View {
                 .padding()
             
             HStack{
-                Spacer()
-                Text("[99876914](tel:99876914)")
-                    .font(.title3)
-                    .fontWeight(.regular)
-                    .fontWeight(.semibold)
           Text("للتواصل مع الورشة 📞:")
                 .font(.title3)
                 .fontWeight(.regular)
@@ -49,6 +44,11 @@ struct GarageB: View {
                   .cornerRadius(15)
                   .padding()
                 
+                Text("[99648830](tel:99648830)")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .fontWeight(.semibold)
+                Spacer()
 
             }
             
@@ -61,7 +61,7 @@ struct GarageB: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .onTapGesture {
-                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/MeNKNtgxNxELAC7YA")!)
+                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/jELwayu74Syn57nf7")!)
                   }
             
             

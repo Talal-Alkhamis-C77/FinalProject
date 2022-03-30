@@ -30,11 +30,6 @@ struct GarageA: View {
                 .padding()
             
             HStack{
-                Spacer()
-                Text("[99876914](tel:99876914)")
-                    .font(.title3)
-                    .fontWeight(.regular)
-                    .fontWeight(.semibold)
           Text("للتواصل مع الورشة 📞:")
                 .font(.title3)
                 .fontWeight(.regular)
@@ -45,6 +40,12 @@ struct GarageA: View {
                   .cornerRadius(15)
                   .padding()
                 
+                Text("غير متوفر حاليا")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color("On primary container"))
+                Spacer()
 
             }
             

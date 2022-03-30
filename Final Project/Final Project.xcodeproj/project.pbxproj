@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F22BFD727EF19070003A664 /* ElectroincsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFD627EF19070003A664 /* ElectroincsView.swift */; };
 		0F22BFD927EF19370003A664 /* BrakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFD827EF19370003A664 /* BrakesView.swift */; };
-		0F22BFDB27EF19500003A664 /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFDA27EF19500003A664 /* GearView.swift */; };
+		0F22BFDB27EF19500003A664 /* WashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFDA27EF19500003A664 /* WashView.swift */; };
 		0F22BFE527EF76BA0003A664 /* GarageA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFE427EF76BA0003A664 /* GarageA.swift */; };
 		0F6F87B327F0B2D1005E6AE5 /* GarageB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F87B227F0B2D1005E6AE5 /* GarageB.swift */; };
 		0F6F87B527F0E462005E6AE5 /* GargageC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F87B427F0E462005E6AE5 /* GargageC.swift */; };
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		0F22BFD627EF19070003A664 /* ElectroincsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroincsView.swift; sourceTree = "<group>"; };
 		0F22BFD827EF19370003A664 /* BrakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrakesView.swift; sourceTree = "<group>"; };
-		0F22BFDA27EF19500003A664 /* GearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearView.swift; sourceTree = "<group>"; };
+		0F22BFDA27EF19500003A664 /* WashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashView.swift; sourceTree = "<group>"; };
 		0F22BFE427EF76BA0003A664 /* GarageA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageA.swift; sourceTree = "<group>"; };
 		0F6F87B227F0B2D1005E6AE5 /* GarageB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageB.swift; sourceTree = "<group>"; };
 		0F6F87B427F0E462005E6AE5 /* GargageC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GargageC.swift; sourceTree = "<group>"; };
@@ -74,14 +74,14 @@
 			path = Electronics;
 			sourceTree = "<group>";
 		};
-		0F22BFE127EF1D510003A664 /* Gear */ = {
+		0F22BFE127EF1D510003A664 /* Wash */ = {
 			isa = PBXGroup;
 			children = (
-				0F22BFDA27EF19500003A664 /* GearView.swift */,
+				0F22BFDA27EF19500003A664 /* WashView.swift */,
 				0F9A64C727F1AF5200757B2D /* GarageG.swift */,
 				0F9A64C927F1AF5E00757B2D /* GarageH.swift */,
 			);
-			path = Gear;
+			path = Wash;
 			sourceTree = "<group>";
 		};
 		0F22BFE227EF1D680003A664 /* Brakes */ = {
@@ -128,7 +128,7 @@
 				0F6F87B827F0E850005E6AE5 /* Launch Screen.storyboard */,
 				0F22BFE027EF1D320003A664 /* Electronics */,
 				0F22BFE227EF1D680003A664 /* Brakes */,
-				0F22BFE127EF1D510003A664 /* Gear */,
+				0F22BFE127EF1D510003A664 /* Wash */,
 				0F22BFE327EF1D790003A664 /* Sus */,
 				0FB9CCC027DCD2B600CF49F9 /* Assets.xcassets */,
 				0FB9CCC227DCD2B600CF49F9 /* Preview Content */,
@@ -225,7 +225,7 @@
 				0F9A64C827F1AF5200757B2D /* GarageG.swift in Sources */,
 				0F9A64C627F1A7BE00757B2D /* GarageF.swift in Sources */,
 				0F22BFD927EF19370003A664 /* BrakesView.swift in Sources */,
-				0F22BFDB27EF19500003A664 /* GearView.swift in Sources */,
+				0F22BFDB27EF19500003A664 /* WashView.swift in Sources */,
 				0F9A64CA27F1AF5E00757B2D /* GarageH.swift in Sources */,
 				0F6F87B727F0E503005E6AE5 /* GarageD.swift in Sources */,
 				0F6F87B527F0E462005E6AE5 /* GargageC.swift in Sources */,
@@ -362,7 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Final Project/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R5Q8VDUY36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -395,7 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Final Project/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R5Q8VDUY36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

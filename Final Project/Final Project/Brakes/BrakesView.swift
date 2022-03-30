@@ -21,7 +21,7 @@ struct BrakesView: View {
             } label: {
                 HStack{
                     
-                    Text(" الخطيب لصيانة الكهرباء")
+                    Text("كراج أبو أصايل")
                         .foregroundColor(Color("On primary container"))
                     Spacer()
                     Image(systemName: "chevron.left")
@@ -41,7 +41,7 @@ struct BrakesView: View {
                 GarageF()
             } label: {
                 HStack{
-                    Text("كراج صفائي")
+                    Text("كراج الروضة")
                         .foregroundColor(Color("On primary container"))
                     
                     Spacer()
@@ -56,7 +56,7 @@ struct BrakesView: View {
             }
             
         }
-        .navigationTitle("كهربائيات")    }
+        .navigationTitle("بريكات وسفايف")    }
 }
 
 struct BrakesView_Previews: PreviewProvider {
