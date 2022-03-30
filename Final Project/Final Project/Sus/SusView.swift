@@ -46,22 +46,60 @@ struct SusView: View {
                 GarageJ()
             } label: {
                 HStack{
-                    Text("كراج صفائي")
+                    
+                    Image("UR-logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75)
+                        .clipShape(Circle())
+                    
+                    Text("UR OFFROAD")
                         .foregroundColor(Color("On primary container"))
                     
                     Spacer()
                     Image(systemName: "chevron.left")
                         .foregroundColor(Color("On primary container"))
                 }.padding()
-                    .frame(width: 350, height: 65)
+                    .frame(width: 350, height: 85)
                     .background(Color("Primary Container"))
                     .cornerRadius(10)
                     .padding(5)
                 
             }
             
+            
+            NavigationLink {
+                GarageK()
+            } label: {
+                HStack{
+                    
+                    Image("fuse")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75)
+                        .clipShape(Circle())
+                    
+                    Text("FUSE")
+                        .foregroundColor(Color("On primary container"))
+                    
+                    Spacer()
+                    Image(systemName: "chevron.left")
+                        .foregroundColor(Color("On primary container"))
+                }.padding()
+                    .frame(width: 350, height: 85)
+                    .background(Color("Primary Container"))
+                    .cornerRadius(10)
+                    .padding(5)
+                
+            }
+            
+            
+            
+            
+            
+            
         }
-        .navigationTitle("المعاونات")
+        .navigationTitle("4x4")
     }
 }
 

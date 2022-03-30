@@ -17,7 +17,7 @@ struct GargageC: View {
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.trailing)
 
-            Image("1")
+            Image("2")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 400, height: 300)
@@ -33,8 +33,8 @@ struct GargageC: View {
                 .multilineTextAlignment(.center)
                 .padding()
             
-            HStack{
-          Text("للتواصل مع الورشة 📞:")
+            VStack{
+          Text("للتواصل مع الورشة:")
                 .font(.title3)
                 .fontWeight(.regular)
                 .fontWeight(.semibold)
@@ -43,13 +43,14 @@ struct GargageC: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .padding()
-                
-                Text("[50025167](tel:50025167)")
+                HStack{
+                    Spacer()
+                Text("[اتصل بنا](tel:50025167)")
                     .font(.title3)
                     .fontWeight(.regular)
                     .fontWeight(.semibold)
                 Spacer()
-                
+                }
 
             }
             
@@ -62,7 +63,7 @@ struct GargageC: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .onTapGesture {
-                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/WX6mG4BDYtsPeaKJ6")!)
+                      UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/BGV55Y2ANbvP17Un7")!)
                   }
             
             

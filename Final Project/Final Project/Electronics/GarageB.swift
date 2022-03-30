@@ -33,8 +33,8 @@ struct GarageB: View {
                 .multilineTextAlignment(.center)
                 .padding()
             
-            HStack{
-          Text("للتواصل مع الورشة 📞:")
+            VStack{
+          Text("للتواصل مع الورشة:")
                 .font(.title3)
                 .fontWeight(.regular)
                 .fontWeight(.semibold)
@@ -43,13 +43,14 @@ struct GarageB: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .padding()
-                
-                Text("[99648830](tel:99648830)")
+                HStack{
+                    Spacer()
+                Text("[اتصل بنا](tel:99648830)")
                     .font(.title3)
                     .fontWeight(.regular)
                     .fontWeight(.semibold)
                 Spacer()
-
+                }
             }
             
             Text("موقع الكراج 📍")

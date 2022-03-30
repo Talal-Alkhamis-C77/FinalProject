@@ -1,19 +1,18 @@
 //
-//  GarageI.swift
+//  GarageK.swift
 //  Final Project
 //
-//  Created by Talal Alkhamis on 28/03/2022.
+//  Created by Talal Alkhamis on 30/03/2022.
 //
 
 import SwiftUI
 
-struct GarageI: View {
+struct GarageK: View {
     var body: some View {
-        
         ScrollView {
             VStack{
                 
-                Text("ORP")
+                Text("Fuse")
                     .foregroundColor(Color("Primary"))
                     .font(Font.system(size: 35))
                     .fontWeight(.heavy)
@@ -21,18 +20,22 @@ struct GarageI: View {
                 
                 ScrollView(.horizontal){
                     HStack{
-                        Image("orp-1")
+                        Image("fuse-1")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 400, height: 300)
-                        Image("orp-2")
+                        Image("fuse-2")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 400, height: 300)
+                        Image("fuse-3")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 400, height: 300)
                     }
                 }
                 
-                Text("كراج ORP يقدم خدامات عديدة للتعديل على السيارات مثل(المعاونات، تواير، دعاميات)، وأيضيا لديه منتجات حصريه للرحلات ")
+                Text("كراج FUSE مختص في تمديد السيارات بالكهرباء بحيث تكون جاهزة للرحلات بشكل كامل، وأيضيا يجهزون السيارة بالأدراج كما هو موضع في الصور. ")
                     .font(.body)
                     .fontWeight(.bold)
                     .frame(width: 350, height: 80)
@@ -55,7 +58,7 @@ struct GarageI: View {
                         .padding()
                     HStack{
                         Spacer()
-                        Text("[اتصل بنا](tel:24910300)")
+                        Text("[اتصل بنا](tel:94440208)")
                             .padding()
                         Image("insta")
                             .resizable()
@@ -63,17 +66,7 @@ struct GarageI: View {
                             .frame(width: 75, height: 75)
                             .padding()
                             .onTapGesture {
-                                UIApplication.shared.openURL(URL(string:"https://www.instagram.com/orp/?hl=en")!)
-                            }
-                        
-                        
-                        Image("web")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 70, height: 70)
-                            .padding()
-                            .onTapGesture {
-                                UIApplication.shared.openURL(URL(string:"https://orp.com.kw")!)
+                                UIApplication.shared.openURL(URL(string:"https://www.instagram.com/fuse_electrical/?hl=en")!)
                             }
                         Spacer()
                     }
@@ -89,18 +82,18 @@ struct GarageI: View {
                     .background(Color("Primary Container"))
                     .cornerRadius(15)
                     .onTapGesture {
-                        UIApplication.shared.openURL(URL(string:"https://www.google.com/maps?q=Off+Road+Performance+-+ORP,+Building+100+33+St,+Shuwaikh+Industrial&ftid=0x3fcf9abc645b5155:0x61ab68c72982bc41&hl=en-KW&gl=kw&entry=gps&lucs=s2se,a2&shorturl=1")!)
+                        UIApplication.shared.openURL(URL(string:"https://www.google.com/maps/place/Fuse+Electrical+Co.+(Branch+2)/@29.3187157,47.9320812,15.88z/data=!4m9!1m2!2m1!1sfuse!3m5!1s0x3fcf9b965c43df57:0x19a5ec3d90802539!8m2!3d29.3170927!4d47.9298697!15sCgRmdXNlkgEQYXV0b19yZXBhaXJfc2hvcA?hl=en-KW")!)
                     }
                 
                 
             }
         }
-        
+
     }
 }
 
-struct GarageI_Previews: PreviewProvider {
+struct GarageK_Previews: PreviewProvider {
     static var previews: some View {
-        GarageI()
+        GarageK()
     }
 }

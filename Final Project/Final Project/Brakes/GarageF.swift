@@ -37,7 +37,7 @@ struct GarageF: View {
                 }
             }
   
-            Text("كراج الروضة خدمة سريعة وومتازة ويوجد غرف إنتظار للنساء والرجال")
+            Text("كراج الروضة خدمة سريعة و متازة ويوجد غرف إنتظار للنساء والرجال")
                 .font(.body)
                 .fontWeight(.bold)
                 .padding()
@@ -47,8 +47,8 @@ struct GarageF: View {
                 .multilineTextAlignment(.center)
                 .padding()
             
-            HStack{
-          Text("للتواصل مع الورشة 📞:")
+            VStack{
+          Text("للتواصل مع الورشة:")
                 .font(.title3)
                 .fontWeight(.regular)
                 .fontWeight(.semibold)
@@ -57,13 +57,14 @@ struct GarageF: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .padding()
-                
-                Text("[66508011](tel:66508011)")
+                HStack{
+                    Spacer()
+                Text("[اتصل بنا](tel:66508011)")
                     .font(.title3)
                     .fontWeight(.regular)
                     .fontWeight(.semibold)
                 Spacer()
-
+                }
             }
             
             Text("موقع الكراج 📍")

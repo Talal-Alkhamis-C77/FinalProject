@@ -29,8 +29,8 @@ struct GarageA: View {
                 .multilineTextAlignment(.center)
                 .padding()
             
-            HStack{
-          Text("للتواصل مع الورشة 📞:")
+            VStack{
+          Text("للتواصل مع الورشة:")
                 .font(.title3)
                 .fontWeight(.regular)
                 .fontWeight(.semibold)
@@ -39,14 +39,15 @@ struct GarageA: View {
                   .background(Color("Primary Container"))
                   .cornerRadius(15)
                   .padding()
-                
+                HStack{
+                    Spacer()
                 Text("غير متوفر حاليا")
                     .font(.title3)
                     .fontWeight(.regular)
                     .fontWeight(.semibold)
                     .foregroundColor(Color("On primary container"))
                 Spacer()
-
+                }
             }
             
             Text("موقع الكراج 📍")

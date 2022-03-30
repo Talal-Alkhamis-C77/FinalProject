@@ -26,6 +26,7 @@
 		0FB9CCBF27DCD2B500CF49F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9CCBE27DCD2B500CF49F9 /* ContentView.swift */; };
 		0FB9CCC127DCD2B600CF49F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB9CCC027DCD2B600CF49F9 /* Assets.xcassets */; };
 		0FB9CCC427DCD2B600CF49F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB9CCC327DCD2B600CF49F9 /* Preview Assets.xcassets */; };
+		0FD9AEFF27F4B4AF00F0F389 /* GarageK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9AEFE27F4B4AF00F0F389 /* GarageK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		0FB9CCBE27DCD2B500CF49F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FB9CCC027DCD2B600CF49F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB9CCC327DCD2B600CF49F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FD9AEFE27F4B4AF00F0F389 /* GarageK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0F9A64CF27F1B13B00757B2D /* SusView.swift */,
 				0F9A64CB27F1AF7900757B2D /* GarageI.swift */,
 				0F9A64CD27F1AF9700757B2D /* GarageJ.swift */,
+				0FD9AEFE27F4B4AF00F0F389 /* GarageK.swift */,
 			);
 			path = Sus;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD9AEFF27F4B4AF00F0F389 /* GarageK.swift in Sources */,
 				0FB9CCBF27DCD2B500CF49F9 /* ContentView.swift in Sources */,
 				0F6F87B327F0B2D1005E6AE5 /* GarageB.swift in Sources */,
 				0F9A64CC27F1AF7900757B2D /* GarageI.swift in Sources */,

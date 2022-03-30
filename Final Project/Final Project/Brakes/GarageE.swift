@@ -23,7 +23,7 @@ struct GarageE: View {
                 .frame(width: 400, height: 300)
                 
   
-            Text("أخصائي بريك خدمة سريعة خلال وقت سريع تصليح جميع أنواع ال ABS مع كفالة ثلاث شهور")
+            Text("أخصائي بريك خدمة سريعة خلال وقت قصير تصليح جميع أنواع ال ABS مع كفالة ثلاث شهور")
                 .font(.body)
                 .fontWeight(.bold)
                 .padding()
@@ -33,8 +33,8 @@ struct GarageE: View {
                 .multilineTextAlignment(.center)
                 .padding()
             
-            HStack{
-          Text("للتواصل مع الورشة 📞:")
+            VStack{
+          Text("للتواصل مع الورشة:")
                 .font(.title3)
                 .fontWeight(.regular)
                 .fontWeight(.semibold)
@@ -44,12 +44,14 @@ struct GarageE: View {
                   .cornerRadius(15)
                   .padding()
                 
-                Text("[97505559](tel:97505559)")
+                HStack{
+                    Spacer()
+                Text("[اتصل بنا](tel:97505559)")
                     .font(.title3)
                     .fontWeight(.regular)
                     .fontWeight(.semibold)
                 Spacer()
-
+                }
             }
             
             Text("موقع الكراج 📍")

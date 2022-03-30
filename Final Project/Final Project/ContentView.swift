@@ -56,7 +56,7 @@ struct ContentView: View {
                     }
                     HStack{
                         VStack{
-                            Text("الحماية والغسيل")
+                            Text("دلع سيارتك")
                                 .font(.title2)
                                 .padding()
                                 .background(.white)
