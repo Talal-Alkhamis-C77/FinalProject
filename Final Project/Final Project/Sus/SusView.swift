@@ -13,32 +13,37 @@ struct SusView: View {
         ScrollView{
             
             
-            // Garage E
+            // Garage I
             
             
             NavigationLink {
-                GarageE()
+                GarageI()
             } label: {
                 HStack{
                     
-                    Text(" الخطيب لصيانة الكهرباء")
+                    Image("ORP")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75)
+                        .clipShape(Circle())
+                    Text("ORP")
                         .foregroundColor(Color("On primary container"))
                     Spacer()
                     Image(systemName: "chevron.left")
                         .foregroundColor(Color("On primary container"))
                 }.padding()
-                    .frame(width: 350, height: 65)
+                    .frame(width: 350, height: 85)
                     .background(Color("Primary Container"))
                     .cornerRadius(10)
                     .padding(5)
             }
             
             
-            // Garage F
+            // Garage J
             
             
             NavigationLink {
-                GarageF()
+                GarageJ()
             } label: {
                 HStack{
                     Text("كراج صفائي")
@@ -56,7 +61,7 @@ struct SusView: View {
             }
             
         }
-        .navigationTitle("كهربائيات")
+        .navigationTitle("المعاونات")
     }
 }
 

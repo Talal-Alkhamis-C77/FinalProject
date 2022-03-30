@@ -14,15 +14,17 @@ struct WashView: View {
         ScrollView{
             
             
-            // Garage E
+            // Garage G
             
             
             NavigationLink {
-                GarageE()
+                GarageG()
             } label: {
                 HStack{
                     
-                    Text(" الخطيب لصيانة الكهرباء")
+                    
+                    
+                    Text("")
                         .foregroundColor(Color("On primary container"))
                     Spacer()
                     Image(systemName: "chevron.left")
@@ -35,11 +37,11 @@ struct WashView: View {
             }
             
             
-            // Garage F
+            // Garage H
             
             
             NavigationLink {
-                GarageF()
+                GarageH()
             } label: {
                 HStack{
                     Text("كراج صفائي")
@@ -57,7 +59,7 @@ struct WashView: View {
             }
             
         }
-        .navigationTitle("كهربائيات")
+        .navigationTitle("الحماية والغسيل")
 
     }
 }

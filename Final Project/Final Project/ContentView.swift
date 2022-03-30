@@ -75,7 +75,7 @@ struct ContentView: View {
                         
                         }
                             VStack{
-                                Text("المعاونات")
+                                Text("4x4")
                                     .font(.title2)
                                     .padding()
                                     .background(.white)
