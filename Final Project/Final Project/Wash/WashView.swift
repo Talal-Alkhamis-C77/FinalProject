@@ -21,16 +21,18 @@ struct WashView: View {
                 GarageG()
             } label: {
                 HStack{
-                    
-                    
-                    
-                    Text("")
+                    Image("full")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75)
+                        .clipShape(Circle())
+                    Text("Full Option")
                         .foregroundColor(Color("On primary container"))
                     Spacer()
                     Image(systemName: "chevron.left")
                         .foregroundColor(Color("On primary container"))
                 }.padding()
-                    .frame(width: 350, height: 65)
+                    .frame(width: 350, height: 80)
                     .background(Color("Primary Container"))
                     .cornerRadius(10)
                     .padding(5)
@@ -44,7 +46,62 @@ struct WashView: View {
                 GarageH()
             } label: {
                 HStack{
-                    Text("كراج صفائي")
+                    Image("ORP")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75)
+                        .clipShape(Circle())
+                    Text("")
+                        .foregroundColor(Color("On primary container"))
+                    
+                    Spacer()
+                    Image(systemName: "chevron.left")
+                        .foregroundColor(Color("On primary container"))
+                }.padding()
+                    .frame(width: 350, height: 80)
+                    .background(Color("Primary Container"))
+                    .cornerRadius(10)
+                    .padding(5)
+                
+            }
+            
+            //GarageL
+            
+            NavigationLink {
+                GarageL()
+            } label: {
+                HStack{
+                    Image("ORP")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75)
+                        .clipShape(Circle())
+                    Text("")
+                        .foregroundColor(Color("On primary container"))
+                    
+                    Spacer()
+                    Image(systemName: "chevron.left")
+                        .foregroundColor(Color("On primary container"))
+                }.padding()
+                    .frame(width: 350, height: 80)
+                    .background(Color("Primary Container"))
+                    .cornerRadius(10)
+                    .padding(5)
+                
+            }
+            
+            //GarageM
+            
+            NavigationLink {
+                GarageM()
+            } label: {
+                HStack{
+                    Image("ORP")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 80)
+                        .clipShape(Circle())
+                    Text("")
                         .foregroundColor(Color("On primary container"))
                     
                     Spacer()
@@ -57,6 +114,7 @@ struct WashView: View {
                     .padding(5)
                 
             }
+            
             
         }
         .navigationTitle("الحماية والغسيل")

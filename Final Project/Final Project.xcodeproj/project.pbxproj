@@ -27,6 +27,8 @@
 		0FB9CCC127DCD2B600CF49F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB9CCC027DCD2B600CF49F9 /* Assets.xcassets */; };
 		0FB9CCC427DCD2B600CF49F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB9CCC327DCD2B600CF49F9 /* Preview Assets.xcassets */; };
 		0FD9AEFF27F4B4AF00F0F389 /* GarageK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9AEFE27F4B4AF00F0F389 /* GarageK.swift */; };
+		0FD9AF0127F4CC6B00F0F389 /* GarageL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9AF0027F4CC6B00F0F389 /* GarageL.swift */; };
+		0FD9AF0327F4CC7300F0F389 /* GarageM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9AF0227F4CC7300F0F389 /* GarageM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		0FB9CCC027DCD2B600CF49F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB9CCC327DCD2B600CF49F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0FD9AEFE27F4B4AF00F0F389 /* GarageK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageK.swift; sourceTree = "<group>"; };
+		0FD9AF0027F4CC6B00F0F389 /* GarageL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageL.swift; sourceTree = "<group>"; };
+		0FD9AF0227F4CC7300F0F389 /* GarageM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				0F22BFDA27EF19500003A664 /* WashView.swift */,
 				0F9A64C727F1AF5200757B2D /* GarageG.swift */,
 				0F9A64C927F1AF5E00757B2D /* GarageH.swift */,
+				0FD9AF0027F4CC6B00F0F389 /* GarageL.swift */,
+				0FD9AF0227F4CC7300F0F389 /* GarageM.swift */,
 			);
 			path = Wash;
 			sourceTree = "<group>";
@@ -220,6 +226,7 @@
 			files = (
 				0FD9AEFF27F4B4AF00F0F389 /* GarageK.swift in Sources */,
 				0FB9CCBF27DCD2B500CF49F9 /* ContentView.swift in Sources */,
+				0FD9AF0327F4CC7300F0F389 /* GarageM.swift in Sources */,
 				0F6F87B327F0B2D1005E6AE5 /* GarageB.swift in Sources */,
 				0F9A64CC27F1AF7900757B2D /* GarageI.swift in Sources */,
 				0F22BFE527EF76BA0003A664 /* GarageA.swift in Sources */,
@@ -229,6 +236,7 @@
 				0F9A64C827F1AF5200757B2D /* GarageG.swift in Sources */,
 				0F9A64C627F1A7BE00757B2D /* GarageF.swift in Sources */,
 				0F22BFD927EF19370003A664 /* BrakesView.swift in Sources */,
+				0FD9AF0127F4CC6B00F0F389 /* GarageL.swift in Sources */,
 				0F22BFDB27EF19500003A664 /* WashView.swift in Sources */,
 				0F9A64CA27F1AF5E00757B2D /* GarageH.swift in Sources */,
 				0F6F87B727F0E503005E6AE5 /* GarageD.swift in Sources */,

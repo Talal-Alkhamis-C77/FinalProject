@@ -9,7 +9,87 @@ import SwiftUI
 
 struct GarageG: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack{
+                
+                Text("Full Option")
+                    .foregroundColor(Color("Primary"))
+                    .font(Font.system(size: 35))
+                    .fontWeight(.heavy)
+                    .multilineTextAlignment(.trailing)
+                
+                ScrollView(.horizontal){
+                    HStack{
+                        Image("full-1")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 400, height: 300)
+                        Image("full-2")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 400, height: 300)
+                        Image("full-3")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 400, height: 300)
+                        
+                        
+                    }
+                }
+                
+                Text("فل اوبشن لحماية وغسيل السيارات، متخصصين بالتلميع والبوليش والوقاية،حماية عازل حراري،تصليح الدعمات بدون صبغ، تغطيس وصبغ قابل للازال.")
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .frame(width: 350, height: 90)
+                    .padding()
+                    .foregroundColor(Color("On primary container"))
+                    .background(Color("Primary Container"))
+                    .cornerRadius(15)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                
+                VStack{
+                    Text("للتواصل مع الورشة")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .fontWeight(.semibold)
+                        .padding()
+                        .foregroundColor(Color("On primary container"))
+                        .background(Color("Primary Container"))
+                        .cornerRadius(15)
+                        .padding()
+                    HStack{
+                        Spacer()
+                        Text("[اتصل بنا](tel:99098089)")
+                            .padding()
+                        Image("insta")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 75, height: 75)
+                            .padding()
+                            .onTapGesture {
+                                UIApplication.shared.openURL(URL(string:"https://www.instagram.com/full_option.car.care/")!)
+                            }
+                        Spacer()
+                    }
+                    
+                }
+                
+                Text("موقع الكراج 📍")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .fontWeight(.semibold)
+                    .padding()
+                    .foregroundColor(Color("On primary container"))
+                    .background(Color("Primary Container"))
+                    .cornerRadius(15)
+                    .onTapGesture {
+                        UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/curXCKKUWPQqHPjbA")!)
+                    }
+                
+                
+            }
+        }
     }
 }
 
