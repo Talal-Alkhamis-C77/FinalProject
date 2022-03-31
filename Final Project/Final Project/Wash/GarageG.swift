@@ -11,13 +11,20 @@ struct GarageG: View {
     var body: some View {
         ScrollView {
             VStack{
-                
+                HStack{
                 Text("Full Option")
                     .foregroundColor(Color("Primary"))
                     .font(Font.system(size: 35))
                     .fontWeight(.heavy)
                     .multilineTextAlignment(.trailing)
-                
+                    .padding()
+                    
+                    Image("full")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75)
+                        .clipShape(Circle())
+                }
                 ScrollView(.horizontal){
                     HStack{
                         Image("full-1")

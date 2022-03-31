@@ -46,12 +46,12 @@ struct WashView: View {
                 GarageH()
             } label: {
                 HStack{
-                    Image("ORP")
+                    Image("carcare-logo")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 75, height: 75)
                         .clipShape(Circle())
-                    Text("")
+                    Text("CarCare Protection")
                         .foregroundColor(Color("On primary container"))
                     
                     Spacer()
@@ -71,12 +71,12 @@ struct WashView: View {
                 GarageL()
             } label: {
                 HStack{
-                    Image("ORP")
+                    Image("adams")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 75, height: 75)
                         .clipShape(Circle())
-                    Text("")
+                    Text("Adams Polish")
                         .foregroundColor(Color("On primary container"))
                     
                     Spacer()
@@ -96,19 +96,19 @@ struct WashView: View {
                 GarageM()
             } label: {
                 HStack{
-                    Image("ORP")
+                    Image("bee-logo")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 75, height: 80)
                         .clipShape(Circle())
-                    Text("")
+                    Text("Bee Protection")
                         .foregroundColor(Color("On primary container"))
                     
                     Spacer()
                     Image(systemName: "chevron.left")
                         .foregroundColor(Color("On primary container"))
                 }.padding()
-                    .frame(width: 350, height: 65)
+                    .frame(width: 350, height: 75)
                     .background(Color("Primary Container"))
                     .cornerRadius(10)
                     .padding(5)
