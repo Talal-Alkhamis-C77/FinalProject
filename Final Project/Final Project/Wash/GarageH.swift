@@ -62,7 +62,7 @@ struct GarageH: View {
                         Spacer()
                         Text("[اتصل بنا](tel:99947849)")
                             .padding()
-                        Image("insta")
+                        Image("insta.png")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 75, height: 75)

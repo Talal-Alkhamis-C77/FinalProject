@@ -60,7 +60,7 @@ struct GarageK: View {
                         Spacer()
                         Text("[اتصل بنا](tel:94440208)")
                             .padding()
-                        Image("insta")
+                        Image("insta.png")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 75, height: 75)

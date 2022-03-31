@@ -10,80 +10,62 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        NavigationView {
-            
-                VStack{
-                    
-                    HStack{
-                        VStack{
-                            
-                            Text("كهربائيات")
-                                .font(.title2)
-                                .padding()
-                                .background(.white)
-                                .cornerRadius(.infinity)
-                            NavigationLink {
-                                ElectroincsView()
-                            } label: {
-                                Image("Battery")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .clipShape(Circle())
-                                    .padding()
-                            }
-
+        TabView {
+            NavigationView {
+                
+                    VStack{
                         
-                            
-                        }
-                        VStack{
-                            Text("سفايف وبريك")
-                                .font(.title2)
-                                .padding()
-                                .background(.white)
-                                .cornerRadius(.infinity)
-                            NavigationLink {
-                                BrakesView()
-                            } label: {
-                                Image("Brakes")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .clipShape(Circle())
-                                    .padding()
-                            }
-
-                        }
-                        
-                    }
-                    HStack{
-                        VStack{
-                            Text("دلع سيارتك")
-                                .font(.title2)
-                                .padding()
-                                .background(.white)
-                                .cornerRadius(.infinity)
-                            NavigationLink {
-                                WashView()
-                            } label: {
-                                Image("gear box")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 170, height: 170)
-                                    .clipShape(Circle())
-                                    .padding()
-                            }
-
-                        
-                        }
+                        HStack{
                             VStack{
-                                Text("4x4")
+                                
+                                Text("كهربائيات")
                                     .font(.title2)
                                     .padding()
                                     .background(.white)
                                     .cornerRadius(.infinity)
                                 NavigationLink {
-                                    SusView()
+                                    ElectroincsView()
                                 } label: {
-                                    Image("sus")
+                                    Image("Battery")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .clipShape(Circle())
+                                        .padding()
+                                }
+
+                            
+                                
+                            }
+                            VStack{
+                                Text("سفايف وبريك")
+                                    .font(.title2)
+                                    .padding()
+                                    .background(.white)
+                                    .cornerRadius(.infinity)
+                                NavigationLink {
+                                    BrakesView()
+                                } label: {
+                                    Image("Brakes")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .clipShape(Circle())
+                                        .padding()
+                                }
+
+                            }
+                            
+                        }
+                        HStack{
+                            VStack{
+                                Text("دلع سيارتك")
+                                    .font(.title2)
+                                    .padding()
+                                    .background(.white)
+                                    .cornerRadius(.infinity)
+                                NavigationLink {
+                                    WashView()
+                                } label: {
+                                    Image("gear box")
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width: 170, height: 170)
@@ -92,13 +74,33 @@ struct ContentView: View {
                                 }
 
                             
-                        }
-                }
+                            }
+                                VStack{
+                                    Text("4x4")
+                                        .font(.title2)
+                                        .padding()
+                                        .background(.white)
+                                        .cornerRadius(.infinity)
+                                    NavigationLink {
+                                        SusView()
+                                    } label: {
+                                        Image("sus")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 170, height: 170)
+                                            .clipShape(Circle())
+                                            .padding()
+                                    }
+
+                                
+                            }
+                    }
+                        
+                    }
+                    .navigationTitle("الصفحة الرئيسية")
                     
-                }
-                .navigationTitle("الصفحة الرئيسية")
-                
             }
+        }
         }
         
     }
