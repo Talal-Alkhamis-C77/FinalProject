@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F15625E27F8EB2A00F27AB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F15625D27F8EB2A00F27AB4 /* GoogleService-Info.plist */; };
 		0F22BFD727EF19070003A664 /* ElectroincsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFD627EF19070003A664 /* ElectroincsView.swift */; };
 		0F22BFD927EF19370003A664 /* BrakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFD827EF19370003A664 /* BrakesView.swift */; };
 		0F22BFDB27EF19500003A664 /* WashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22BFDA27EF19500003A664 /* WashView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F15625D27F8EB2A00F27AB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F22BFD627EF19070003A664 /* ElectroincsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroincsView.swift; sourceTree = "<group>"; };
 		0F22BFD827EF19370003A664 /* BrakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrakesView.swift; sourceTree = "<group>"; };
 		0F22BFDA27EF19500003A664 /* WashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				0FFD041127F8CF86008B0EF0 /* SettingsView.swift */,
 				0FFD040F27F898AC008B0EF0 /* Mytabview.swift */,
 				0F9C693927F8E7F00010866F /* SignIn.swift */,
+				0F15625D27F8EB2A00F27AB4 /* GoogleService-Info.plist */,
 				0F22BFE027EF1D320003A664 /* Electronics */,
 				0F22BFE227EF1D680003A664 /* Brakes */,
 				0F22BFE127EF1D510003A664 /* Wash */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F6F87B927F0E850005E6AE5 /* Launch Screen.storyboard in Resources */,
+				0F15625E27F8EB2A00F27AB4 /* GoogleService-Info.plist in Resources */,
 				0FB9CCC427DCD2B600CF49F9 /* Preview Assets.xcassets in Resources */,
 				0FB9CCC127DCD2B600CF49F9 /* Assets.xcassets in Resources */,
 			);
@@ -395,7 +399,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,7 +432,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
