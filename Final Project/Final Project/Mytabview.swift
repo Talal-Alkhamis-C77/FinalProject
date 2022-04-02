@@ -12,17 +12,29 @@ struct Mytabview: View {
     var body: some View {
         
         TabView{
+            
+            //settings
+            
+            SettingsView()
+                .tabItem{
+                    Image(systemName:"gear")
+                }
+            
+            
+            //HOME
+            
             ContentView()
-            .tabItem {
-            Image(systemName:
-            "person.crop.circle.fill")
-                Text("الحساب")
-            }
+                .tabItem {
+                    Image(systemName:"house.fill")
+                }
+            
+            //Profile
+            
             SignIn()
                 .tabItem{
-                    Image(systemName:
-                            "person.crop.circle.fill")
+                    Image(systemName:"person.crop.circle.fill")
                 }
+            
         }
     }
 }
