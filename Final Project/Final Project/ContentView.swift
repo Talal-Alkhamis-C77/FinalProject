@@ -22,11 +22,12 @@ struct ContentView: View {
                                         NavigationLink {
                                             ElectroincsView()
                                         } label: {
-                                            Image("Battery")
+                                            Image("Battery-1")
                                                 .resizable()
                                                 .scaledToFit()
-                                                .clipShape(Circle())
+                                                .frame(width: 200, height: 200)
                                                 .padding()
+                                            
                                         }
                                         Text("كهربائيات")
                                             .font(.title2)
@@ -42,11 +43,12 @@ struct ContentView: View {
                                         NavigationLink {
                                             BrakesView()
                                         } label: {
-                                            Image("Brakes")
+                                            Image("Circle-2")
                                                 .resizable()
                                                 .scaledToFit()
-                                                .clipShape(Circle())
+                                                .frame(width: 200, height: 200)
                                                 .padding()
+                                               
                                         }
                                         Text("سفايف وبريك")
                                             .font(.title2)
@@ -63,12 +65,11 @@ struct ContentView: View {
                                         NavigationLink {
                                             WashView()
                                         } label: {
-                                            Image("gear box")
+                                            Image("Car-1")
                                                 .resizable()
                                                 .scaledToFit()
-                                                .frame(width: 170, height: 170)
-                                                .clipShape(Circle())
-                                                .padding()
+                                                .frame(width: 200, height: 200)
+                                                .padding(.all)
                                         }
                                         Text("دلع سيارتك")
                                             .font(.title2)
@@ -82,12 +83,11 @@ struct ContentView: View {
                                             NavigationLink {
                                                 SusView()
                                             } label: {
-                                                Image("sus")
+                                                Image("Edited Car")
                                                     .resizable()
                                                     .scaledToFit()
-                                                    .frame(width: 170, height: 170)
-                                                    .clipShape(Circle())
-                                                    .padding()
+                                                    .frame(width: 200, height: 200)
+                                                    .padding(.all)
                                             }
                                             Text("4x4")
                                                 .font(.title2)
