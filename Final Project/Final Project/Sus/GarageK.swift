@@ -82,7 +82,7 @@ struct GarageK: View {
                     .background(Color("Primary Container"))
                     .cornerRadius(15)
                     .onTapGesture {
-                        UIApplication.shared.openURL(URL(string:"https://www.google.com/maps/place/Fuse+Electrical+Co.+(Branch+2)/@29.3187157,47.9320812,15.88z/data=!4m9!1m2!2m1!1sfuse!3m5!1s0x3fcf9b965c43df57:0x19a5ec3d90802539!8m2!3d29.3170927!4d47.9298697!15sCgRmdXNlkgEQYXV0b19yZXBhaXJfc2hvcA?hl=en-KW")!)
+                        UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/fimPennVxWXAcqzC8")!)
                     }
                 
                 

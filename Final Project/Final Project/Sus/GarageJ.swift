@@ -88,7 +88,7 @@ struct GarageJ: View {
                     .background(Color("Primary Container"))
                     .cornerRadius(15)
                     .onTapGesture {
-                        UIApplication.shared.openURL(URL(string:"https://www.google.com/maps?q=UR+OFF+ROAD,+Ground+Floor,+21+21+St&ftid=0x3fcf9a91359080e3:0x7b834f6d1b48356d&hl=en-KW&gl=kw&entry=gps&lucs=s2se,a2&shorturl=1")!)
+                        UIApplication.shared.openURL(URL(string:"https://goo.gl/maps/KxhKnmNKNoLLMMtP8")!)
                     }
                 
                 
